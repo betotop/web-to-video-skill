@@ -32,7 +32,7 @@ en una sola corrida.
 Requisitos: Node 20+, `ffmpeg` y Python 3.10+ (macOS trae 3.9; usa `brew install python@3.12`).
 
 ```bash
-git clone https://github.com/bobceron/web-to-video-skill.git
+git clone https://github.com/betotop/web-to-video-skill.git
 cp -r web-to-video-skill/web-to-video ~/.claude/skills/
 cd ~/.claude/skills/web-to-video && npm install --omit=dev
 python3.12 -m venv ~/.w2v-venv && ~/.w2v-venv/bin/pip install kokoro-onnx soundfile
@@ -74,8 +74,8 @@ La versión que uso en proyectos reales agrega:
 - Publicación del sitio y los videos en la nube para compartirlos con un link.
 
 Si quieres usarlo en tu equipo, adaptarlo a tu marca o ver la versión completa, abre un
-[issue](https://github.com/bobceron/web-to-video-skill/issues) o escríbeme por GitHub
-([@bobceron](https://github.com/bobceron)).
+[issue](https://github.com/betotop/web-to-video-skill/issues) o escríbeme por GitHub
+([@betotop](https://github.com/betotop)).
 
 ## Créditos y licencia
 
